@@ -1,0 +1,9 @@
+.aboutC{
+  margin: 100px 0;
+}
+.aboutC .setbg{
+  background-image: url(../../images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+}

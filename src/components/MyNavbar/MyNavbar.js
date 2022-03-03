@@ -44,7 +44,7 @@ export default function MyNavbar() {
             </Navbar.Brand>
           </div>
           <div className='d-flex'>
-            <button>Invest in Pre-Seed</button>
+            <p>Invest in Pre-Seed</p>
           </div>
         </div>
       </div>

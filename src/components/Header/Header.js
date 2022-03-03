@@ -4,12 +4,11 @@ import './header.css'
 import MainLogo from '../../images/main-logo.png'
 export default function Header() {
   return (
-    <div>
+    <div className='headerC'>
       <Row>
         <Col>
           <div>
-            <h1>The Center Of</h1>
-            <h1>Your Cryptoverse</h1>
+            <h1 >The Center Of <br/> Your Cryptoverse</h1>
           </div>
           <div>
             <p>

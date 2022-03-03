@@ -1,15 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import './about.css'
-
 export default function About() {
   return (
-    <div>
+    <div className='aboutC'>
       <div>
-        <h1>Kynno Enterprise Grade </h1>
-        <h1>Blockchain </h1>
+        <h1 >Kynno Enterprise Grade <br /> Blockchain</h1>
       </div>
-      <Row>
+      <Row className='setbg'>
         <Col>
           <div>
             <p>
@@ -27,7 +25,7 @@ export default function About() {
               compliant, and cutting-edge digital infrastructures.
             </p>
           </div>
-          <div>
+          <div >
             <h3>What is the objective of the KYNNO blockchain?</h3>
             <p>
               Kynno’s main objective is to interface and communicate with other 
