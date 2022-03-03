@@ -1,0 +1,14 @@
+.sliderC{
+  width: 550px;
+  height: 629px;
+  background-color: rgba(19, 19, 19, 1);
+  padding: 30px;
+  border-radius: 20px;
+}
+.sliderC p{
+  font-size: 20px;
+}
+.sliderC img{
+  margin-bottom: 34px;
+  float: right;
+}

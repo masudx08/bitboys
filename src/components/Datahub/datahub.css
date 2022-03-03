@@ -4,3 +4,27 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.datahubC .inner{
+  width: 90%;
+  margin: auto;
+}
+.datahubC .right{
+  margin-top: 146px;
+}
+
+.rightInner{
+  width: 50%;
+  margin-left: auto;
+}
+
+.rightInner .text-area{
+  margin-bottom: 57px;
+}
+.rightInner .bottom{
+  text-align: right;
+  margin-top: 54px
+}
+.rightInner .bottom p{
+  font-size: 30px
+}
