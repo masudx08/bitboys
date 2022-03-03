@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: white;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: linear-gradient(180deg, rgba(24, 24, 24, 1) 0%, #181818 85.94%);
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size:3.125rem;
+  font-weight: bold;
+  line-height: 5rem;
+}
+h2{
+  font-size:2.37rem;
+  font-weight: bold;
+  line-height: 3.56rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+h3{
+  font-size:2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+h4{
+  font-size:1.25rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+li{
+  font-size: 1.62rem;
+  font-weight: 600;
+  line-height: 2.125rem;
+}
+h5{
+  font-size:1.125rem;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p{
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+}
+.mytext{
+  color: #FFC700;
+}
+
+@media only screen and (max-width: 991px){
+  .hideInMobile{
+    display:none
   }
-  to {
-    transform: rotate(360deg);
+  .nav-icon{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1{
+    font-size: 1.75rem;
+    line-height: 40px;
+  }
+  h2{
+    font-size: 1.5rem;
+    line-height: 36px;
+  }
+  h3{
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  h4{
+    font-size: 0.87rem;
+    line-height: 21px;
+  }
+  li{
+    font-size: 0.87rem;
+    line-height: 34px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 0.75rem;
+    line-height: 20px;
+    font-weight: normal;
+  }
+}
+
+.row{
+  margin: 0;
+  padding: 0
+}
+
+@media only screen and (min-width: 992px){
+  .hideInDesktop{
+    display:none
   }
 }

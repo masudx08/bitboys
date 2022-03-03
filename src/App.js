@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import MyNav from './components/MyNav/MyNav';
+import MyNavbar from './components/MyNavbar/MyNavbar';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Datahub from './components/Datahub/Datahub';
@@ -16,7 +16,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
-      <MyNav />
+      <MyNavbar />
       <Header />
       <About />
       <Datahub />
