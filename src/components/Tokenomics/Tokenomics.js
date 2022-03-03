@@ -8,10 +8,10 @@ export default function Tokenomics() {
       <div>
         <h1>$KYN Tokenomics</h1>
       </div>
-      <div className='setbg'>
+      <div className='setbg toke1'>
         <img src={TokeImg} alt="" />
       </div>
-      <div>
+      <div className='toke2'>
         <img src={Toke2Img} alt="" />
       </div>
 

@@ -14,19 +14,19 @@ export default function Foundation() {
         </p>
       </div>
       <div>
-        <h3>Grant and Delegation Programs:</h3>
+        <h4>Grant and Delegation Programs:</h4>
         <p>The Kynno Foundation will reserve funds for R&D
           initiatives led by third parties that bring value to the
           ecosystem’s growth.</p>
       </div>
       <div>
-        <h3>Research:</h3>
+        <h4>Research:</h4>
         <p>The Kynno Foundation will reserve funds for R&D
           initiatives led by third parties that bring value to the
           ecosystem’s growth.</p>
       </div>
       <div>
-        <h3>Education and Advancement:</h3>
+        <h4>Education and Advancement:</h4>
         <p>A Kynno school to educate people, companies and
           governments and leverage knowledge to push for
           decentralized technologies’ mass adoption.</p>

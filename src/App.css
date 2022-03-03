@@ -1,10 +1,22 @@
-
+@font-face {
+  font-family: gilroy-bold;
+  src: url(./fonts/gilroy-bold.otf);
+}
+@font-face {
+  font-family: gilroy-light;
+  src: url(./fonts/gilroy-light.otf);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, b{
+  font-family: 'gilroy-bold', sans-serif;
+}
+p, li, div{
+  font-family: 'gilroy-light', sans-serif;
 }
 .row{
   margin: 0;
@@ -15,46 +27,49 @@ body{
 }
 
 h1{
-  font-size:3.125rem;
-  font-weight: bold;
-  line-height: 5rem;
+  font-size: 100px;
+  line-height: 123px;
   background: -webkit-linear-gradient(271deg, rgba(255, 0, 229, 1) 0%, rgba(85, 206, 232, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 h2{
-  font-size:2.37rem;
-  font-weight: bold;
-  line-height: 3.56rem;
+  font-size:80px;
+  line-height: 99px;
   text-align: center;
   letter-spacing: 0.03em;
 }
 h3{
-  font-size:2rem;
+  font-size:50px;
   font-weight: 700;
-  line-height: 3rem;
+  line-height: 63px;
 }
 h4{
-  font-size:1.25rem;
+  font-size:36px;
   font-weight: 700;
-  line-height: 2rem;
-}
-li{
-  font-size: 1.62rem;
-  font-weight: 600;
-  line-height: 2.125rem;
-}
-h5{
-  font-size:1.125rem;
-  font-weight: 600;
+  line-height: 45px;
 }
 
-p{
-  font-size: 1rem;
+
+
+p, a{
+  font-size: 24px;
   font-weight: normal;
-  line-height: 1.75rem;
+  line-height: 30px;
 }
-
+b{
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 37px;
+}
+small{
+  font-size: 16px;
+  line-height: 19px;
+}
+button {
+  font-size: 24px;
+  line-height: 29px;
+}
 
 /* .g1{
   background: -webkit-linear-gradient(271deg, rgba(255, 0, 229, 1) 0%, rgba(85, 206, 232, 1) 100%);

@@ -30,7 +30,8 @@
   margin-right: 0;
 }
 .nav-logo{
-  width: 70px;
+  max-width: 244px;
+  width: 100%;
   height: auto;
 }
 .nav-icons img{
@@ -53,7 +54,7 @@
   color: rgba(85, 206, 232, 1)
 }
 .navbar-light .navbar-toggler-icon{
-  /* background-image: url('/images/nav.svg'); */
+  background-image: url('../../images/nav.svg');
 }
 
 .offcanvas-start{

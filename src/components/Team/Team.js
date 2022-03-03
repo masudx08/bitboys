@@ -39,13 +39,13 @@ export default function Team() {
         <h1>Leadership Team</h1>
         <p>A Task Force Of Seasoned Professionals</p>
       </div>
-      <div className='d-flex'>
+      <div className='d-flex teamImages'>
         {
           teamMembers.map((member, id) => {
             return (
               <div key={id}>
-                <h6>{member.name}</h6>
-                <p>{member.title}</p>
+                <p>{member.name}</p>
+                <small>{member.title}</small>
                 <div>
                   <img src={member.img} alt="" />
                 </div>
@@ -59,7 +59,7 @@ export default function Team() {
         <p>At Kynno we are not a team, we are a taskforce of experienced
           professionals working tirelessly to make this project the Unicorn of Crypto!</p>
       </div>
-      <div className='d-flex'>
+      <div className='d-flex taskImages'>
         {
           taskForces.map((task, id) => {
             return (

@@ -26,7 +26,7 @@ export default function About() {
             </p>
           </div>
           <div >
-            <h3>What is the objective of the KYNNO blockchain?</h3>
+            <h4>What is the objective of the KYNNO blockchain?</h4>
             <p>
               Kynno’s main objective is to interface and communicate with other 
               blockchains and wallets to gather data on all your assets. This data

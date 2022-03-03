@@ -5,12 +5,12 @@ import MainLogo from '../../images/main-logo.png'
 export default function Header() {
   return (
     <div className='headerC'>
-      <Row>
-        <Col>
+      <Row className='inner'>
+        <Col md={7}>
           <div>
             <h1 >The Center Of <br/> Your Cryptoverse</h1>
           </div>
-          <div>
+          <div className='text-area'>
             <p>
               Kynno gets its name from the Old French and Greek word: “Kynosoura” which 
               literally means The Center of Attraction. Kynno will be the center of attraction 
@@ -23,12 +23,12 @@ export default function Header() {
             </p>
           </div>
           <div>
-            <button>Invest in Pre-Seed</button>
-            <button>View Video</button>
+            <button className='btn1'>Invest in Pre-Seed</button>
+            <button className='btn2'>View Video</button>
           </div>
         </Col>
-        <Col>
-          <div>
+        <Col md={5} >
+          <div className='main-logo'>
             <img src={MainLogo} alt="" />
           </div>
         </Col>
