@@ -1,9 +1,22 @@
 .aboutC{
-  margin: 100px 0;
+  padding-top: 123px;
+  padding-bottom: 183px;
 }
 .aboutC .setbg{
   background-image: url(../../images/about-bg.png);
-  background-size: cover;
+  background-size: 90%;
   background-repeat: no-repeat;
-  background-position:top;
+  background-position: left;
+  height: 600px;
+}
+.aboutC .inner{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.aboutBottom .inner{
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

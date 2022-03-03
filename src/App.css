@@ -23,7 +23,7 @@ p, li, div{
   padding: 0
 }
 body{
-  background: rgb(5, 5, 5)
+  background: black;
 }
 
 h1{
@@ -56,6 +56,7 @@ p, a{
   font-size: 24px;
   font-weight: normal;
   line-height: 30px;
+  letter-spacing: 2.8px;
 }
 b{
   font-size: 30px;
