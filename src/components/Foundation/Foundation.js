@@ -2,7 +2,7 @@ import React from 'react'
 import './foundation.css'
 export default function Foundation() {
   return (
-    <div>
+    <div className='foundationC'>
       <div>
         <h1>The KYNNO Foundation</h1>
         <p>

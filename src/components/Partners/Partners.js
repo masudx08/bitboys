@@ -15,7 +15,7 @@ export default function Partners() {
     {img: Partner1},
   ]
   return (
-    <div>
+    <div className='partnerC'>
       <div>
         <h1>Kynno Partners</h1>
       </div>

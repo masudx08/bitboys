@@ -3,7 +3,7 @@ import './usecases.css'
 
 export default function Usecases() {
   return (
-    <div>
+    <div className='usecasesC'>
       <div>
         <h1>Kynno’s ‍Use-Cases</h1>
         <p>

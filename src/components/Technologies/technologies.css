@@ -1,0 +1,12 @@
+.techC .setbg-1{
+  background-image: url(../../images/technologies-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right
+}
+.techC .setbg-2{
+  background-image: url(../../images/technologies2-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left
+}

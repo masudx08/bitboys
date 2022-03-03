@@ -4,11 +4,11 @@ import TokeImg from '../../images/tokenomics-img.png'
 import Toke2Img from '../../images/tokenomics-2.png'
 export default function Tokenomics() {
   return (
-    <div>
+    <div className='tokenomicsC'>
       <div>
         <h1>$KYN Tokenomics</h1>
       </div>
-      <div>
+      <div className='setbg'>
         <img src={TokeImg} alt="" />
       </div>
       <div>

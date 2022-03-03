@@ -34,7 +34,7 @@ export default function Team() {
     {img: Task5},
   ]
   return (
-    <div>
+    <div className='teamC'>
       <div>
         <h1>Leadership Team</h1>
         <p>A Task Force Of Seasoned Professionals</p>
