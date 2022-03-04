@@ -11,7 +11,7 @@ export default function About() {
         <Row >
           <Col>
             <div>
-              <p style={{fontWeight:'bold'}}>
+              <p >
                 Kynno is a revolutionary decentralized permissionless enterprise
                 grade blockchain platform, built to support and operate secure, 
                 compliant, and cutting-edge digital infrastructures.
@@ -20,7 +20,7 @@ export default function About() {
           </Col>
           <Col>
             <div>
-              <p>
+              <p style={{fontWeight:'400'}}>
                 Kynno is a revolutionary decentralized permissionless enterprise
                 grade blockchain platform, built to support and operate secure, 
                 compliant, and cutting-edge digital infrastructures.
@@ -32,7 +32,7 @@ export default function About() {
             <div className='setbg aboutBottom'>
               <div className='inner'>
                 <h4>What is the objective of the KYNNO blockchain?</h4>
-                <p>
+                <p style={{fontWeight:'400'}}>
                   Kynno’s main objective is to interface and communicate with other 
                   blockchains and wallets to gather data on all your assets. This data
                   is then sent to one centralized dashboard on your Kynno Data Hub

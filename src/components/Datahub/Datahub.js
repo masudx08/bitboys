@@ -13,11 +13,11 @@ export default function Datahub() {
         <div className='right'>
           <div className="rightInner">
             <div className='text-area'>
-              <b>
+              <p>
                 Kynno is a revolutionary decentralized permissionless enterprise
                 grade blockchain platform, built to support and operate secure,
                 compliant, and cutting-edge digital infrastructures.
-              </b>
+              </p>
             </div>
             <div>
               <CustomSlider />

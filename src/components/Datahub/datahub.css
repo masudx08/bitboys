@@ -12,6 +12,10 @@
 .datahubC .right{
   margin-top: 146px;
 }
+.datahubC .text-area p{
+  font-size: 30px;
+  line-height: 37.14px;
+}
 
 .rightInner{
   width: 50%;

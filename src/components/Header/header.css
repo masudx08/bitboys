@@ -23,7 +23,7 @@
   margin-top: 122px;
 }
 .headerC p{
-  font-weight: bold;
+  font-weight: 700;
 }
 .headerC p:nth-child(1){
   margin-bottom: 42px
@@ -32,6 +32,7 @@
   margin-bottom: 133px;
   margin-top: 60px;
 }
+
 
 .headerC .btn1{
   background-color: rgba(167, 85, 249, 1);

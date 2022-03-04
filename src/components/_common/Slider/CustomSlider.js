@@ -19,16 +19,16 @@ export default function CustomSlider() {
                   All your assets and transactions accessible at a glance
                   spread across wallets, blockchains and marketplaces.
                 </p>
-                <b>
+                <h5>
                   Live Cryptofolio and Transaction History: 
-                </b>
+                </h5>
                 <p>
                   Real Time visibility of all your assets in one dashboard. 
                   Search, view and filter all your past transactions. 
                 </p>
-                <h4>
+                <h5>
                   Alerts: 
-                </h4>
+                </h5>
                 <p>
                   Get Alerts when new interesting assets are available, 
                   when an asset is in a buy or sell zone or a market trend
