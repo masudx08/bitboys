@@ -30,16 +30,10 @@ export default function Usecases() {
               <h3>We’re On A Mission To Democratize Cryptocurrency</h3>
               <div>
                 <p>
-                  With 30+ years of combined experience in the development of cutting-edge
-                  solutions of which 10 years in Blockchain Technologies and 10+ years of
-                  entrepreneurship and successful business building, we have the skills
+                  With 30+ years of combined experience in the development of cutting-edge, <br/>
+                  solutions of which 10 years in Blockchain Technologies and 10+ years of  <br/>
+                  entrepreneurship and successful business building, we have the skills  <br/>
                   to launch a blue-chip product that will take-over the market.
-                </p>
-              </div>
-              <div>
-                <p>
-                  And it gets even worse when you want to declare your taxes! In such a volatile market, being able to make the
-                  right decision fast is the key to a successful investment strategy.
                 </p>
               </div>
             </div>

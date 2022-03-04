@@ -15,6 +15,12 @@
 }
 @font-face {
   font-family: gilroy;
+  src: url(./fonts/Gilroy-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: gilroy;
   src: url(./fonts/Gilroy-Regular.ttf);
   font-weight: 400;
 }
@@ -79,7 +85,6 @@ h2{
   font-size:80px;
   line-height: 99px;
   text-align: center;
-  letter-spacing: 0.03em;
   font-weight: 700;
 
 }

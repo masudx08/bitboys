@@ -1,4 +1,5 @@
 .footerC{
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 .subscribe .inner{
@@ -85,7 +86,8 @@
 
 
 .icon-bg img{
-  width: 32px
+  width: 32px;
+  margin-right: 27px;
 }
 
 @media only screen and (max-width: 991px){

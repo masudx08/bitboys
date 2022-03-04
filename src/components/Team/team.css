@@ -1,3 +1,14 @@
+.teamImages {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 55px;
+}
+.taskImages {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
 
 .teamImages img{
   width: 200px;
@@ -12,8 +23,9 @@
 }
 
 .teamC .team{
+  
   background-image: url(../../images/team-img.png);
-  background-size: 80%;
+  background-size: 90%;
   background-position: top;
   background-repeat: no-repeat;
   width: 85%;
@@ -23,6 +35,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-top: 146px;
   padding-bottom: 200px;
 }
 
@@ -32,11 +45,13 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
 .task .text-area{
-  width: 70%;
-  margin: auto
+  width: 50%;
+  margin: auto;
+  margin-bottom: 53px;
 }
 
 .teamImages .setHeight{

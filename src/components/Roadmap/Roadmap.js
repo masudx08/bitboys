@@ -5,7 +5,7 @@ export default function Roadmap() {
   return (
     <div className='roadmapC'>
      <div className="inner">
-      <div>
+      <div className='text-area'>
           <h1>Kynno’s Roadmap</h1>
           <p>A solid strategy for a strong result</p>
         </div>

@@ -1,7 +1,7 @@
 .techC .setbg-1{
   background-image: url(../../images/technologies-img.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 63%;
   background-position: right
 }
 .techC .setbg-2{
@@ -14,8 +14,11 @@
 .techC .inner1{
   width: 90%;
   margin: auto;
+  padding-top: 104px;
 }
-
+.techC h1{
+  margin-bottom: 38px;
+}
 .techC .inner2{
   width: 90%;
   margin: auto;
@@ -26,6 +29,9 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+.techC .left p{
+  font-size: 24px
 }
 .techC .right div{
   width: 50%;
@@ -42,6 +48,10 @@
 
 .techC .inner2{
   text-align: center;
+}
+.techC .inner2 h3{
+  font-style: italic;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 991px){

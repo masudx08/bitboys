@@ -6,9 +6,11 @@ export default function Technologies() {
       <div>
         <div className='setbg-1'>
           <div className="inner1">
+            <div>
+            <h1>Kynno Zkps Technologies</h1>
+            </div>
             <div className="left">
               <div>
-                <h1>Kynno Zkps Technologies</h1>
                 <p>Storing personal data in a decentralized way while guaranteeing its security
                   is made possible by combining Kynno’s disruptive blockchain technology and
                   Zero Knowledge Proof Protocols.
@@ -58,7 +60,7 @@ export default function Technologies() {
               and legal documents efficiently
               and securely.
             </h2>
-            <i>Leadership Team Of KYNNO</i>
+            <h3 >Leadership Team Of KYNNO</h3>
           </div>
         </div>
       </div>
