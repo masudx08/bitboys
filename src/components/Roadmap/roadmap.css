@@ -2,7 +2,8 @@
   background-image: url(../../images/roadmap-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right
+  background-position: right;
+  padding: 100px 0;
 }
 .roadmapC .inner{
   width: 90%;
