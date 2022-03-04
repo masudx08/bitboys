@@ -20,3 +20,15 @@
   bottom: 0;
   right: 0;
 }
+
+
+@media only screen and (max-width: 991px){
+  .aboutC .setbg{
+    background-size: 100%;
+    height: 360px;
+    background-position: top;
+  }
+  .aboutC{
+    padding-bottom: 80px;
+  }
+}

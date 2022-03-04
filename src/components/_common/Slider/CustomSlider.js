@@ -2,11 +2,11 @@ import React from 'react'
 import './customSlider.css'
 import Line from '../../../images/line.png'
 export default function CustomSlider() {
-  const arr = [1,2,3,4,5,6,7,8,9,10]
+  const arr = [1,2,3,4,5,6,7,8,9,10,11, 12]
   return (
     <div className='slider-container'>
       
-        {
+      {
           arr.map(item=>{
             return (
               <div className='sliderC'>
@@ -39,7 +39,7 @@ export default function CustomSlider() {
             )
           })
         }
-      
+        
     </div>
   )
 }

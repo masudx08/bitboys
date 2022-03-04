@@ -11,7 +11,7 @@
   background-color: rgba(19, 19, 19, 1);
   padding: 30px;
   border-radius: 20px;
-  animation-name: sliderAnimation;
+  /* animation-name: sliderAnimation; */
   animation-timing-function: ease;
   animation-duration: 40s;
   animation-iteration-count: 10;
@@ -60,5 +60,11 @@
   }
   to{
     transform: translateX(calc(-505*10px));
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .sliderC img{
+    max-width: 228px;
   }
 }

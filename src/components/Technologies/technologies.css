@@ -43,3 +43,20 @@
 .techC .inner2{
   text-align: center;
 }
+
+@media only screen and (max-width: 991px){
+  .techC .left{
+    width: 100%;
+    margin-top: 50px
+  }
+  .techC .left .techBox{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .techC .right div {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}

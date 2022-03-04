@@ -1,31 +1,31 @@
 
-.datahubC{
+.useCasesC{
     background-image: url(../../images/datahub-img.png);
     background-position: left;
     background-size: 60%;
     background-repeat: no-repeat;
   }
   
-  .datahubC .inner{
+  .useCasesC .inner{
     width: 90%;
     margin: auto;
   }
-  .datahubC .right{
+  .useCasesC .right{
     margin-top: 146px;
   }
   
-  .rightInner{
+   .useCasesC .rightInner{
     width: 50%;
     margin-left: auto;
   }
   
-  .rightInner .text-area{
+   .useCasesC .rightInner .text-area{
     margin-bottom: 57px;
   }
-  .rightInner .bottom{
+   .useCasesC .rightInner .bottom{
     text-align: right;
     margin-top: 54px
   }
-  .rightInner .bottom p{
+   .useCasesC .rightInner .bottom p{
     font-size: 30px
   }

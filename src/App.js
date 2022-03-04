@@ -18,9 +18,9 @@ function App() {
     <div>
       <MyNavbar />
       <Header />
-      {/* <About /> */}
-      {/* <Datahub /> */}
-      {/* <Technologies /> */}
+      <About />
+      <Datahub />
+      <Technologies />
       {/* <Foundation /> */}
       {/* <Team /> */}
       {/* <Usecases /> */}
