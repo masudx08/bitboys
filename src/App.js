@@ -21,13 +21,13 @@ function App() {
       <About />
       <Datahub />
       <Technologies />
-      {/* <Foundation /> */}
-      {/* <Team /> */}
-      {/* <Usecases /> */}
-      {/* <Tokenomics /> */}
-      {/* <Partners /> */}
-      {/* <Roadmap /> */}
-      {/* <Footer /> */}
+      <Foundation />
+      <Team />
+      <Usecases />
+      <Tokenomics />
+      <Partners />
+      <Roadmap />
+      <Footer />
     </div>
   );
 }

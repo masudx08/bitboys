@@ -21,12 +21,13 @@
 .rightInner .text-area{
   margin-bottom: 57px;
 }
-.rightInner .bottom{
+.datahubC .bottom{
   text-align: right;
   margin-top: 54px
 }
-.rightInner .bottom p{
-  font-size: 30px
+.datahubC .bottom p{
+  font-size: 24px;
+  line-height: 35px;
 }
 
 
@@ -45,7 +46,7 @@
   .datahubC b{
     font-size: 18px
   }
-  .datahubC .rightInner .bottom p {
+  .datahubC .bottom p {
     font-size: 18px;
     line-height: 24px;
 }

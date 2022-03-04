@@ -45,9 +45,11 @@ export default function Team() {
             teamMembers.map((member, id) => {
               return (
                 <div key={id}>
-                  <p>{member.name}</p>
-                  <small>{member.title}</small>
-                  <div>
+                  <div className="setHeight">
+                    <p>{member.name}</p>
+                    <small>{member.title}</small>
+                  </div>
+                  <div className='myImg'>
                     <img src={member.img} alt="" />
                   </div>
                 </div>

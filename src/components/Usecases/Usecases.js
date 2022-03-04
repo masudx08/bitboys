@@ -23,7 +23,10 @@ export default function Usecases() {
             <div>
               <CustomSlider />
             </div>
-            <div className='bottom'>
+
+          </div>
+        </div>
+        <div className='bottom'>
               <h3>We’re On A Mission To Democratize Cryptocurrency</h3>
               <div>
                 <p>
@@ -40,8 +43,6 @@ export default function Usecases() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   )

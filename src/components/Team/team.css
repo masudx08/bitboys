@@ -38,3 +38,27 @@
   width: 70%;
   margin: auto
 }
+
+.teamImages .setHeight{
+  height: 130px
+}
+
+
+@media only screen and (max-width: 991px){
+  .teamC .team {
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 157px;
+  }
+  .teamImages img {
+    width: 85px
+  }
+}

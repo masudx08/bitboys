@@ -82,6 +82,12 @@
 .innerSub h5{
   margin-bottom: 15px;
 }
+
+
+.icon-bg img{
+  width: 32px
+}
+
 @media only screen and (max-width: 991px){
   .subscribe .inner{
     flex-direction: column;
@@ -138,7 +144,7 @@
     justify-content: center;
   }
   .footLogo img{
-    width: 54px;
+    width: 150px;
 
   }
 }

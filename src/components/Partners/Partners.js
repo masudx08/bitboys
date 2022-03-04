@@ -19,11 +19,11 @@ export default function Partners() {
       <div>
         <h1>Kynno Partners</h1>
       </div>
-      <Row>
+      <Row className='justify-content-center'>
         {
           partners.map(partner=>{
             return (
-              <Col md={4}>
+              <Col xs={6} md={4}>
                 <div>
                   <img src={partner.img} alt="" />
                 </div>
