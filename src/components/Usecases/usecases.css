@@ -1,6 +1,31 @@
-.usecasesC{
-    background-image: url(../../images/usecases.png);
-    background-size: contain;
+
+.datahubC{
+    background-image: url(../../images/datahub-img.png);
     background-position: left;
+    background-size: 60%;
     background-repeat: no-repeat;
-}
+  }
+  
+  .datahubC .inner{
+    width: 90%;
+    margin: auto;
+  }
+  .datahubC .right{
+    margin-top: 146px;
+  }
+  
+  .rightInner{
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  .rightInner .text-area{
+    margin-bottom: 57px;
+  }
+  .rightInner .bottom{
+    text-align: right;
+    margin-top: 54px
+  }
+  .rightInner .bottom p{
+    font-size: 30px
+  }
