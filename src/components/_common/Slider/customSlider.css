@@ -13,7 +13,7 @@
   border-radius: 20px;
   animation-name: sliderAnimation;
   animation-timing-function: ease;
-  animation-duration: 10s;
+  animation-duration: 40s;
   animation-iteration-count: 10;
  
 }
@@ -31,10 +31,34 @@
   from{
     transform: translateX(0);
   }
+  10%{
+    transform: translateX(-505px);
+  }
+  20%{
+    transform: translateX(calc(-505*2px));
+  }
+  30%{
+    transform: translateX(calc(-505*3px));
+  }
+  40%{
+    transform: translateX(calc(-505*4px));
+  }
   50%{
-    transform: translateX(-550px);
+    transform: translateX(calc(-505*5px));
+  }
+  60%{
+    transform: translateX(calc(-505*6px));
+  }
+  70%{
+    transform: translateX(calc(-505*7px));
+  }
+  80%{
+    transform: translateX(calc(-505*8px));
+  }
+  90%{
+    transform: translateX(calc(-505*9px));
   }
   to{
-    transform: translateX(-1100px);
+    transform: translateX(calc(-505*10px));
   }
 }
