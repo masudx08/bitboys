@@ -3,23 +3,7 @@
   width: 85%;
   margin: auto;
 }
-/* .icon-bg{
-  background-color: rgba(255, 255, 255, 0.15);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 14px;
-  border-radius: 50%;
 
-}
-.icon-bg:last-child{
-  margin-right: 0;
-}
-.icon-bg:first-child{
-  margin-left: 0;
-} */
 .navbar-nav{
   width: 100%;
   display: flex;
@@ -43,9 +27,10 @@
 .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0;
   margin: 0 24px;
+  font-size: 24px
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
   color: rgba(85, 206, 232, 1)
@@ -75,7 +60,7 @@
 
  }
  .customSidebar a{
-   line-height: 40px;
+   line-height: 50px;
  }
 
 .hideIt{
@@ -96,8 +81,17 @@
 .crossbtn svg{
   cursor: pointer
 }
-
-
+.outlineBtn{
+  border: 1px solid #FFFFFF;
+  align-items: center;
+  padding: 5px 10px
+ 
+}
+.outlineBtn p{
+  font-weight: 400;
+  margin: 0;
+  padding: 0
+}
 
 
 

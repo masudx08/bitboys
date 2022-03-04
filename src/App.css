@@ -1,29 +1,70 @@
 @font-face {
-  font-family: gilroy-bold;
-  src: url(./fonts/gilroy-bold.otf);
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Thin.ttf);
+  font-weight: 100;
 }
 @font-face {
-  font-family: gilroy-light;
-  src: url(./fonts/gilroy-light.otf);
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-UltraLight.ttf);
+  font-weight: 200;
 }
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Semibold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Extrabold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Heavy.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Black.ttf);
+  font-weight: 1000;
+}
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
 }
-h1,  h3, h4, h5, h6, b{
-  font-family: 'gilroy-bold', sans-serif;
-}
-p, li, div, h2{
-  font-family: 'gilroy-light', sans-serif;
-}
+
+
 .row{
   margin: 0;
   padding: 0
 }
 body{
   background: black;
+  font-family: gilroy;
 }
 
 h1{
@@ -32,21 +73,24 @@ h1{
   background: -webkit-linear-gradient(271deg, rgba(255, 0, 229, 1) 0%, rgba(85, 206, 232, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 h2{
   font-size:80px;
   line-height: 99px;
   text-align: center;
   letter-spacing: 0.03em;
+  font-weight: 700;
+
 }
 h3{
   font-size:50px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 63px;
 }
 h4{
   font-size:36px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 45px;
 }
 
@@ -54,7 +98,7 @@ h4{
 
 p{
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 30px;
 }
 b{

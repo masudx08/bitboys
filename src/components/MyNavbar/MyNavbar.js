@@ -43,7 +43,7 @@ export default function MyNavbar() {
               <img className='nav-logo' src="/images/logo.png" alt="" />
             </Navbar.Brand>
           </div>
-          <div className='d-flex'>
+          <div className='d-flex outlineBtn'>
             <p>Invest in Pre-Seed</p>
           </div>
         </div>
