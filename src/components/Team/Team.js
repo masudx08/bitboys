@@ -35,42 +35,46 @@ export default function Team() {
   ]
   return (
     <div className='teamC'>
-      <div>
-        <h1>Leadership Team</h1>
-        <p>A Task Force Of Seasoned Professionals</p>
-      </div>
-      <div className='d-flex teamImages'>
-        {
-          teamMembers.map((member, id) => {
-            return (
-              <div key={id}>
-                <p>{member.name}</p>
-                <small>{member.title}</small>
-                <div>
-                  <img src={member.img} alt="" />
+      <div className="team">
+        <div>
+          <h1>Leadership Team</h1>
+          <p>A Task Force Of Seasoned Professionals</p>
+        </div>
+        <div className='d-flex teamImages'>
+          {
+            teamMembers.map((member, id) => {
+              return (
+                <div key={id}>
+                  <p>{member.name}</p>
+                  <small>{member.title}</small>
+                  <div>
+                    <img src={member.img} alt="" />
+                  </div>
                 </div>
-              </div>
-            )
-          })
-        }
+              )
+            })
+          }
+        </div>
       </div>
-      <div>
-        <h1>TaskForce</h1>
-        <p>At Kynno we are not a team, we are a taskforce of experienced
-          professionals working tirelessly to make this project the Unicorn of Crypto!</p>
-      </div>
-      <div className='d-flex taskImages'>
-        {
-          taskForces.map((task, id) => {
-            return (
-              <div key={id}>
-                <div>
-                  <img src={task.img} alt="" />
+      <div className="task">
+        <div className='text-area'>
+          <h1>TaskForce</h1>
+          <p>At Kynno we are not a team, we are a taskforce of experienced
+            professionals working tirelessly to make this project the Unicorn of Crypto!</p>
+        </div>
+        <div className='d-flex taskImages'>
+          {
+            taskForces.map((task, id) => {
+              return (
+                <div key={id}>
+                  <div>
+                    <img src={task.img} alt="" />
+                  </div>
                 </div>
-              </div>
-            )
-          })
-        }
+              )
+            })
+          }
+        </div>
       </div>
     </div>
   )

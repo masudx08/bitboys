@@ -1,9 +1,3 @@
-.teamC{
-  background-image: url(../../images/team-img.png);
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
 
 .teamImages img{
   width: 200px;
@@ -15,4 +9,32 @@
   width: 230px;
   height: auto;
   max-width: 100%;
+}
+
+.teamC .team{
+  background-image: url(../../images/team-img.png);
+  background-size: 80%;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.teamC .task{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task .text-area{
+  width: 70%;
+  margin: auto
 }
