@@ -12,10 +12,10 @@
   box-sizing: border-box;
   color: white;
 }
-h1, h2, h3, h4, h5, h6, b{
+h1,  h3, h4, h5, h6, b{
   font-family: 'gilroy-bold', sans-serif;
 }
-p, li, div{
+p, li, div, h2{
   font-family: 'gilroy-light', sans-serif;
 }
 .row{

@@ -7,7 +7,7 @@
 .techC .setbg-2{
   background-image: url(../../images/technologies2-img.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 40%;
   background-position: left
 }
 
@@ -38,4 +38,8 @@
   border-radius: 25px;
   padding: 20px;
   margin-bottom: 65px;
+}
+
+.techC .inner2{
+  text-align: center;
 }
