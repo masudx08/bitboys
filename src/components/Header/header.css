@@ -40,6 +40,8 @@
   outline: none;
   border-radius: 20px;
   margin-right: 100px;
+  margin-bottom: 20px;
+
 }
 .headerC .btn2{
   background-color: rgba(232, 27, 229, 1);
@@ -48,3 +50,22 @@
   outline: none;
   border-radius: 20px;
 }
+
+
+ /* ----------------- Responsive -------------------  */
+ @media only screen and (max-width: 991px){
+  .headerC .btn1, .headerC .btn2{
+    padding: 12px 20px;
+    font-size: 14px
+  }
+  .headerC .btn1{
+    margin-right: 20px;
+  }
+  .headerC .text-area {
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  .headerC h1 {
+    margin-top: 50px;
+  }
+ }

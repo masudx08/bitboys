@@ -18,16 +18,16 @@ function App() {
     <div>
       <MyNavbar />
       <Header />
-      <About />
-      <Datahub />
-      <Technologies />
-      <Foundation />
-      <Team />
-      <Usecases />
-      <Tokenomics />
-      <Partners />
-      <Roadmap />
-      <Footer />
+      {/* <About /> */}
+      {/* <Datahub /> */}
+      {/* <Technologies /> */}
+      {/* <Foundation /> */}
+      {/* <Team /> */}
+      {/* <Usecases /> */}
+      {/* <Tokenomics /> */}
+      {/* <Partners /> */}
+      {/* <Roadmap /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

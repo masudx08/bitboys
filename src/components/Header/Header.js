@@ -27,7 +27,7 @@ export default function Header() {
             <button className='btn2'>View Video</button>
           </div>
         </Col>
-        <Col md={5} >
+        <Col md={5} className='hideInMobile'>
           <div className='main-logo'>
             <img src={MainLogo} alt="" />
           </div>
