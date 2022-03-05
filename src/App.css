@@ -164,7 +164,7 @@ button {
   li{
     font-size: 0.87rem;
   }
-  p{
+  p, a{
     font-size: 16px;
     font-weight: 500;
   }

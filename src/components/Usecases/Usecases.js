@@ -5,7 +5,7 @@ import './usecases.css'
 
 export default function Usecases() {
   return (
-    <div className='useCasesC'>
+    <div className='useCasesC' id='usecases'>
       <div className='inner'>
         <div>
           <h1>Kynno’s ‍Use-Cases</h1>

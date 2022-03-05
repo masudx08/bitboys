@@ -34,7 +34,7 @@ export default function Team() {
     {img: Task5},
   ]
   return (
-    <div className='teamC'>
+    <div className='teamC' id='team'>
       <div className="team">
         <div>
           <h1>Leadership Team</h1>

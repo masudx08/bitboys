@@ -5,7 +5,7 @@ import Toke2Img from '../../images/tokenomics-2.png'
 import TokenomicsRow from './TokenomicsRow'
 export default function Tokenomics() {
   return (
-    <div className='tokenomicsC '>
+    <div className='tokenomicsC' id='tokenomics'>
       <div style={{width:'90%', margin: 'auto'}}>
         <h1>$KYN Tokenomics</h1>
       </div>

@@ -5,7 +5,7 @@ import './datahub.css'
 
 export default function Datahub() {
   return (
-    <div className='datahubC'>
+    <div className='datahubC' id='whitepaper'>
       <div className='inner'>
         <div>
           <h1>Kynno Data Hub</h1>
