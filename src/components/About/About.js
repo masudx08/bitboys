@@ -3,7 +3,10 @@ import { Col, Row } from 'react-bootstrap'
 import './about.css'
 export default function About() {
   return (
-    <div className='aboutC'>
+    <div className='aboutC relative'>
+      <div className="fixedText">
+        Kynno is limitless
+      </div>
       <div className="inner">
         <div>
           <h1 >Kynno Enterprise Grade <br /> Blockchain</h1>
@@ -28,9 +31,10 @@ export default function About() {
             </div>
           </Col>
         </Row>
-        <div>
-            <div className='setbg aboutBottom'>
-              <div className='inner'>
+        
+        <div >
+            <div className='setbg aboutBottom' >
+              <div className='inner '>
                 <h4>What is the objective of the KYNNO blockchain?</h4>
                 <p style={{fontWeight:'400'}}>
                   Kynno’s main objective is to interface and communicate with other 
@@ -39,6 +43,7 @@ export default function About() {
                   to be analyzed, organized and displayed.
                 </p>
               </div>
+              
             </div>
         </div>
       </div>

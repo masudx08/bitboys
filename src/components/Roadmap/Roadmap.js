@@ -10,7 +10,7 @@ export default function Roadmap() {
           <p>A solid strategy for a strong result</p>
         </div>
         <div>
-          <CustomSlider />
+          <CustomSlider desktop={3} mobile={1}/>
         </div>
      </div>
     </div>

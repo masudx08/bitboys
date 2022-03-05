@@ -91,6 +91,10 @@
 }
 
 @media only screen and (max-width: 991px){
+  .footer-bottom{
+    width: 100%;
+    text-align: center;
+  }
   .subscribe .inner{
     flex-direction: column;
     padding: 20px

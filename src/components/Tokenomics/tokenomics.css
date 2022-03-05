@@ -26,11 +26,12 @@
   margin: 0
 }
 .tokenomicsC .topContainer{
-  width: 50%
+  width: 80%
 }
 
 .tokeRow{
-  padding: 0 5%;
+  padding: 0 2%;
+  width: 100%
 }
 
 .tokenomics_right{

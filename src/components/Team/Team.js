@@ -1,4 +1,6 @@
 import React from 'react'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import './team.css'
 import Simo from '../../images/t-profile1.png'
 import Nilton from '../../images/t-profile2.png'
@@ -9,6 +11,25 @@ import Task3 from '../../images/task-profile3.png'
 import Task4 from '../../images/task-profile4.png'
 import Task5 from '../../images/task-profile5.png'
 export default function Team() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2
+    }
+  };
   const teamMembers = [
     {
       name: 'Simo Alami',
@@ -32,14 +53,20 @@ export default function Team() {
     {img: Task3},
     {img: Task4},
     {img: Task5},
+    {img: Task1},
+    {img: Task2},
+    {img: Task3},
+    {img: Task4},
+    {img: Task5},
   ]
   return (
-    <div className='teamC' id='team'>
+    <div  id='team' className='teamC'>
       <div className="team">
         <div>
           <h1>Leadership Team</h1>
           <p>A Task Force Of Seasoned Professionals</p>
         </div>
+        
         <div className='d-flex teamImages'>
           {
             teamMembers.map((member, id) => {
@@ -64,20 +91,25 @@ export default function Team() {
           <p>At Kynno we are not a team, we are a taskforce of experienced
             professionals working tirelessly to make this project the Unicorn of Crypto!</p>
         </div>
-        <div className='d-flex taskImages'>
+      </div>
+      <Carousel responsive={responsive}>
+      
           {
             taskForces.map((task, id) => {
               return (
+                <div key={id} className='d-flex taskImages'>
                 <div key={id}>
                   <div>
                     <img src={task.img} alt="" />
                   </div>
                 </div>
+                </div>
               )
             })
           }
-        </div>
-      </div>
+         
+        
+        </Carousel>
     </div>
   )
 }

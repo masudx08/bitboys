@@ -1,6 +1,10 @@
 .aboutC{
   padding-top: 123px;
   padding-bottom: 183px;
+  
+}
+.relative{
+  position: relative;
 }
 .aboutC .setbg{
   background-image: url(../../images/about-bg.png);
@@ -21,6 +25,24 @@
   right: 0;
 }
 
+.fixedText{
+  position: absolute;
+  bottom: 30%;
+  top: 50%;
+  transform: rotate(-90deg);
+  font-weight: 900;
+  font-size: 45px;
+  z-index: 1000;
+}
+/* .fixedText{
+  position: fixed;
+  top: 50%;
+  left: -120px;
+  transform: rotate(-90deg);
+  font-weight: 900;
+  font-size: 45px;
+  z-index: 1000;
+} */
 
 @media only screen and (max-width: 991px){
   .aboutC .setbg{
@@ -34,5 +56,8 @@
   }
   .aboutBottom .inner{
     width: 100%;
+  }
+  .fixedText{
+   font-size: 30px;
   }
 }

@@ -3,6 +3,7 @@
   box-sizing: border-box;
   overflow: hidden;
   column-gap: 20px;
+  justify-content: center;
 }
 
 .sliderC{
@@ -31,7 +32,6 @@
 }
 .sliderC img{
   margin-bottom: 34px;
-  float: right;
 }
 
 
@@ -50,11 +50,14 @@
   .sliderC p{
     margin-bottom: 15px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 19px;
   }
   .sliderC h5 {
-    margin-bottom: 18px;
-    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .sliderC h4{
     margin-bottom: 10px;
