@@ -30,9 +30,7 @@
   justify-content: flex-start;
   flex-direction: column;
 }
-.techC .left p{
-  font-size: 24px
-}
+
 .techC .right div{
   width: 50%;
   margin-left: auto;
@@ -55,6 +53,9 @@
 }
 
 @media only screen and (max-width: 991px){
+  .techC .inner1 {
+    text-align: center;
+  }
   .techC .left{
     width: 100%;
     margin-top: 50px

@@ -34,6 +34,9 @@
 
 
   @media only screen and (max-width: 991px){
+    .useCasesC{
+      margin-top: 0
+    }
     .useCasesC .inner {
       text-align: center;
       margin-top: 80px;
@@ -45,10 +48,10 @@
       width: 90%;
       margin: auto
     }
-    .useCasesC .rightInner .bottom p{
+    .useCasesC  .bottom p{
       font-size: 16px;
     }
-    .useCasesC .rightInner .bottom{
+    .useCasesC  .bottom{
       text-align: center;
     }
   }

@@ -64,7 +64,7 @@
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -73,7 +73,28 @@
     text-align: center;
     padding-bottom: 157px;
   }
+  .teamC .task{
+    margin-top: 0
+  }
+  .teamImages{
+    width: 100%;
+  }
+
+  .memberCont{
+    width: 33%;
+  }
   .teamImages img {
     width: 85px
+  }
+
+  .teamC p{
+    font-size: 13px
+  }
+  .teamC small{
+    font-size: 11px
+  }
+  .task .text-area{
+    width: 80%;
+    margin-bottom: 0;
   }
 }

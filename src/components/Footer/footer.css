@@ -103,9 +103,7 @@
     width: 170px;
     margin-top: 15px
   }
-  .footerC{
-    padding-top: 70px;
-  }
+ 
   .footerIcon{
     display: flex;
     justify-content: space-between;
@@ -147,7 +145,10 @@
   }
   .footLogo img{
     width: 150px;
-
+  }
+  .icon-bg img{
+    width: 28px;
+    height: none
   }
 }
 

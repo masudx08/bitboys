@@ -13,3 +13,9 @@
 .roadmapC .text-area{
   margin-bottom: 83px;
 }
+
+@media only screen and (max-width: 991px){
+  .roadmapC {
+    text-align: center;
+  }
+}

@@ -9,7 +9,7 @@ export default function About() {
           <h1 >Kynno Enterprise Grade <br /> Blockchain</h1>
         </div>
         <Row >
-          <Col>
+          <Col xs={12} md={6}>
             <div>
               <p >
                 Kynno is a revolutionary decentralized permissionless enterprise
@@ -18,7 +18,7 @@ export default function About() {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <div>
               <p style={{fontWeight:'400'}}>
                 Kynno is a revolutionary decentralized permissionless enterprise

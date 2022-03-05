@@ -44,7 +44,7 @@ export default function Team() {
           {
             teamMembers.map((member, id) => {
               return (
-                <div key={id}>
+                <div key={id} className='memberCont'>
                   <div className="setHeight">
                     <p>{member.name}</p>
                     <small>{member.title}</small>

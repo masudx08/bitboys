@@ -36,6 +36,32 @@
 
 
 
+
+
+
+@media only screen and (max-width: 991px){
+  .sliderC{
+    padding: 10px
+  }
+  .sliderC img{
+    max-width: 280px;
+    margin-bottom: 15px;
+  }
+  .sliderC p{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .sliderC h5 {
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  .sliderC h4{
+    margin-bottom: 10px;
+  }
+}
+
+
 @keyframes sliderAnimation {
   from{
     transform: translateX(0);
@@ -69,11 +95,5 @@
   }
   to{
     transform: translateX(calc(-505*10px));
-  }
-}
-
-@media only screen and (max-width: 991px){
-  .sliderC img{
-    max-width: 228px;
   }
 }

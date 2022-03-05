@@ -25,10 +25,14 @@
 @media only screen and (max-width: 991px){
   .aboutC .setbg{
     background-size: 100%;
-    height: 360px;
+    height: 450px;
     background-position: top;
   }
   .aboutC{
     padding-bottom: 80px;
+    text-align: center;
+  }
+  .aboutBottom .inner{
+    width: 100%;
   }
 }

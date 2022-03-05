@@ -20,6 +20,7 @@
 
 .tokenomicsC h1{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .tokenomicsC p{
   margin: 0
@@ -37,6 +38,12 @@
 }
 
 @media only screen and (max-width: 1700px){
+  .tokenomicsC{
+    text-align: center;
+  }
+  .tokenomicsC h1{
+    margin-bottom: 0;
+  }
   .tokenomicsC .inner{
    display: block;
   }

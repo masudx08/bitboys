@@ -12,10 +12,10 @@
 .datahubC .right{
   margin-top: 146px;
 }
-.datahubC .text-area p{
+/* .datahubC .text-area p{
   font-size: 30px;
   line-height: 37.14px;
-}
+} */
 
 .rightInner{
   width: 50%;
@@ -29,10 +29,10 @@
   text-align: right;
   margin-top: 54px
 }
-.datahubC .bottom p{
+/* .datahubC .bottom p{
   font-size: 24px;
   line-height: 35px;
-}
+} */
 
 
 @media only screen and (max-width: 991px){
@@ -50,8 +50,8 @@
   .datahubC b{
     font-size: 18px
   }
-  .datahubC .bottom p {
-    font-size: 18px;
-    line-height: 24px;
-}
+  .datahubC .bottom {
+    text-align: center;
+  }
+  
 }
