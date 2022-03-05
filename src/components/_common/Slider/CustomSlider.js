@@ -3,7 +3,7 @@ import './customSlider.css'
 import Line from '../../../images/line.png'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-export default function CustomSlider({desktop, mobile}) {
+export default function CustomSlider({desktop, tab,  mobile}) {
   console.log(mobile, desktop)
   const arr = [1,2,3,4,5,6,7,8,9,10,11, 12]
   const responsive = {
@@ -13,15 +13,15 @@ export default function CustomSlider({desktop, mobile}) {
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1700 },
       items: desktop 
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: desktop
+      breakpoint: { max: 1699, min: 751 },
+      items: tab 
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 750, min: 0 },
       items: mobile
     }
   };

@@ -33,3 +33,11 @@
   }
   
 }
+@media only screen and (max-width: 500px){
+  .tokenomics_right{
+    width: 25%;
+  }
+  .tokenomics_right p{
+    font-size: 13px;
+  }
+}

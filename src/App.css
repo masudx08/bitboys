@@ -145,11 +145,12 @@ button {
   }
   h1{
     font-size: 37px;
-    line-height: 60px;
+    line-height: 45px;
   }
   h2{
-    font-size: 27px;
-    line-height: 43px;
+    font-size: 26px;
+    line-height: 38px;
+    margin-top: 60px
   }
   h3{
      font-size: 24px;

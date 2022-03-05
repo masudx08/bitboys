@@ -72,7 +72,7 @@ export default function Team() {
             teamMembers.map((member, id) => {
               return (
                 <div key={id} className='memberCont'>
-                  <div className="setHeight">
+                  <div >
                     <p>{member.name}</p>
                     <small>{member.title}</small>
                   </div>
@@ -92,7 +92,11 @@ export default function Team() {
             professionals working tirelessly to make this project the Unicorn of Crypto!</p>
         </div>
       </div>
-      <Carousel responsive={responsive}>
+      <Carousel 
+        responsive={responsive}
+        showDots={true}
+        dotListClass="custom-dot-list-style"
+      >
       
           {
             taskForces.map((task, id) => {

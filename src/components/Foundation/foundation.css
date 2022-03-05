@@ -27,10 +27,26 @@
   margin-top: 88px
 }
 
+.foundationBox:nth-child(1){
+  position: relative;
+  left: 20%;
+}
+.foundationBox:nth-child(3){
+  position: relative;
+  left: 80%;
+}
 
 @media only screen and (max-width: 991px){
+  .foundationBox:nth-child(1){
+    position: static;
+    left: 20%;
+  }
+  .foundationBox:nth-child(3){
+    position: static;
+    left: 80%;
+  }
   .foundationC .top {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: auto;
   }
@@ -38,11 +54,19 @@
     margin-top: 80px
   }
   .foundationC .left{
-    width: 90%;
+    width: 100%;
     margin: auto
   }
   .foundationBox{
     margin-top: 15px;
     margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .foundationBox h4{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .foundationBox p{
+    font-size: 15px;
   }
 }

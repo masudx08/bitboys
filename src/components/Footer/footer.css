@@ -151,8 +151,10 @@
     width: 150px;
   }
   .icon-bg img{
-    width: 28px;
-    height: none
+    width: none;
+    height: none;
+    margin-right: 0;
+    margin-top: 7px
   }
 }
 

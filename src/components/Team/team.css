@@ -1,19 +1,22 @@
 .teamImages {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
   margin-top: 55px;
 }
 .taskImages {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
+  margin-bottom: 50px;
 }
 
 .teamImages img{
   width: 200px;
   height: auto;
   max-width: 100%;
+  margin-top: 10px;
+
 }
 
 .taskImages img{
@@ -36,7 +39,7 @@
   flex-direction: column;
   text-align: center;
   margin-top: 146px;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
 }
 
 .teamC .task{
@@ -54,10 +57,17 @@
   margin-bottom: 53px;
 }
 
-.teamImages .setHeight{
-  height: 130px
+.team p{
+  line-height: 0;
 }
 
+.react-multi-carousel-dot button {
+  width: 20px;
+  height: 20px;
+}
+.react-multi-carousel-dot--active button {
+  background-color: rgba(0, 209, 255, 1);
+}
 
 @media only screen and (max-width: 991px){
   .teamC .team {
@@ -71,13 +81,16 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 157px;
+    padding-bottom: 50px;
+    background: none;
+    margin-top: 30px;
   }
   .teamC .task{
     margin-top: 0
   }
   .teamImages{
     width: 100%;
+    margin-top: 30px;
   }
 
   .memberCont{

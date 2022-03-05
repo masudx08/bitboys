@@ -87,6 +87,13 @@
   padding: 5px 10px
  
 }
+.outlineBtn:hover{
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+.outlineBtn:hover > p{
+  color: white
+}
 .outlineBtn p{
   font-weight: 400;
   margin: 0;

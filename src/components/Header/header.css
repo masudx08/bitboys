@@ -35,14 +35,16 @@
 
 
 .headerC .btn1{
-  background-color: rgba(167, 85, 249, 1);
+  background-color: rgb(152, 53, 250);
   padding: 12px 74px;
   border: none;
   outline: none;
   border-radius: 20px;
   margin-right: 100px;
   margin-bottom: 20px;
-
+}
+.headerC .btn1:hover{
+  background-color: rgb(175, 105, 245);
 }
 .headerC .btn2{
   background-color: rgba(232, 27, 229, 1);
@@ -50,6 +52,9 @@
   border: none;
   outline: none;
   border-radius: 20px;
+}
+.headerC .btn2:hover{
+  background-color: rgb(245, 86, 242);
 }
 
 

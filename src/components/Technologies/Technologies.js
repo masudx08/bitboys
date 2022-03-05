@@ -22,7 +22,7 @@ export default function Technologies() {
                 </p>
               </div>
 
-              <div className='techBox'>
+              <div className='techBox one'>
                 <h4>Grant and Delegation Programs:</h4>
                 <p>
                   The Kynno Foundation will reserve funds for R&D
@@ -30,7 +30,7 @@ export default function Technologies() {
                   ecosystem’s growth.
                 </p>
               </div>
-              <div className='techBox'>
+              <div className='techBox two'>
                 <h4>Research:</h4>
                 <p>
                   The Kynno Foundation will reserve funds for R&D

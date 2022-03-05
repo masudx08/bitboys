@@ -37,7 +37,7 @@
 }
 
 .techBox{
-  width: 80%;
+  width: 100%;
   background-color: rgba(19, 19, 19, 1);
   border-radius: 25px;
   padding: 20px;
@@ -52,6 +52,12 @@
   margin-top: 30px;
 }
 
+.techBox.one{
+  position: relative;
+  left: 20%;
+  margin-top: 30px;
+}
+
 @media only screen and (max-width: 991px){
   .techC .inner1 {
     text-align: center;
@@ -61,13 +67,26 @@
     margin-top: 50px
   }
   .techC .left .techBox{
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px;
   }
   .techC .right div {
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px;
+  }
+  .techBox{
+    border-radius: 10px;
+  }
+  .techBox p{
+    font-size: 15px;
+  }
+  .techBox h4{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .techBox.one{
+    position: static;
   }
 }

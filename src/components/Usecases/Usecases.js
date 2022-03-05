@@ -21,7 +21,7 @@ export default function Usecases() {
               </p>
             </div>
             <div>
-              <CustomSlider desktop={1} mobile={1}/>
+              <CustomSlider desktop={1} tab={1} mobile={1}/>
             </div>
 
           </div>

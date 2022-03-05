@@ -5,6 +5,7 @@ import {FaTwitter} from 'react-icons/fa'
 import {FaDiscord} from 'react-icons/fa'
 import './mynavbar.css'
 import Logo from '../../images/logo.png'
+import Logo2 from '../../images/main-logo.png'
 export default function MyNavbar() {
 
  function openSidebar(){
@@ -39,9 +40,9 @@ export default function MyNavbar() {
         <div className='nav-icon'>
           <div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={openSidebar} />
-            <Navbar.Brand href="#home" className='hideInDesktop'>
-              <img className='nav-logo' src="/images/logo.png" alt="" />
-            </Navbar.Brand>
+            {/* <Navbar.Brand href="#home" className='hideInDesktop'>
+              <img className='nav-logo' src={Logo} alt="" />
+            </Navbar.Brand> */}
           </div>
           <div className='d-flex outlineBtn'>
             <p>Invest in Pre-Seed</p>
@@ -50,7 +51,9 @@ export default function MyNavbar() {
       </div>
       <div className="hideInDesktop customSidebar hideIt" id='customSidebar'>
         <Nav className="me-auto">
-          <div className='crossbtn'>
+           
+          <div className='crossbtn d-flex justify-content-between'>
+            <img src={Logo2} style={{width:'40px', marginLeft: '10px'}} alt="" />
             <ImCross onClick={closeSidebar} />
           </div>
             <Nav.Link href="#home" >Home</Nav.Link>
