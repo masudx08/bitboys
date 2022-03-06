@@ -83,9 +83,10 @@ export default function Team() {
                   </div>
                   <Tooltip content={
                     <div className='text-center'>
-                      amar sonar bangla <br />
-                      ami tomay valobashi <br />
-                      cirodin tomar akash 
+                      Lorem Ipsum is simply <br />
+                      dummy text of the printing  <br />
+                       and typesetting industry.  <br />
+                        Lorem Ipsum has been  <br />
                     </div>
                   }>
                   <div className='myImg'>
