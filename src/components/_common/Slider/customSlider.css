@@ -31,22 +31,21 @@
 .sliderC img{
   margin-bottom: 34px;
 }
-
-.react-multi-carousel-list{
-  position: static!important;
-  margin: 0px 20px!important;
+.react-multiple-carousel__arrow{
+  background:none!important;
+  min-width: none!important;
 }
+
 .react-multi-carousel-item{
   display: flex;
   justify-content: center;
 }
-/* .react-multiple-carousel__arrow--right {
-  right: calc(4% + -25px)!important;
+.react-multiple-carousel__arrow--right{
+  right: 0!important;
 }
-.react-multiple-carousel__arrow--left {
-  left: calc(4% + -25px)!important;
-} */
-
+.react-multiple-carousel__arrow--left{
+  left: 0!important;
+}
 
 @media only screen and (max-width: 991px){
   .sliderC{
