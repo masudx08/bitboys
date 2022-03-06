@@ -58,18 +58,23 @@
 }
 
 .team p{
-  line-height: 0;
+  line-height: 10px;
 }
 
 .react-multi-carousel-dot button {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 .react-multi-carousel-dot--active button {
-  background-color: rgba(0, 209, 255, 1);
+  /* background-color: rgba(0, 209, 255, 1); */
+  background-color:rgba(85, 206, 232, 1);
+  border: none;
 }
 
 @media only screen and (max-width: 991px){
+  .teamC{
+    margin-top: 50px;
+  }
   .teamC .team {
     background-size: 100%;
     background-position: bottom;
@@ -91,18 +96,28 @@
   .teamImages{
     width: 100%;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .memberCont{
-    width: 33%;
+    width:100%
   }
   .teamImages img {
-    width: 85px
+    width: 150px;
+    margin-bottom: 45px;
+    margin-top: 0
   }
 
   .teamC p{
-    font-size: 13px
+    line-height: 30px;
   }
+ .teamImages .title p{
+   font-size: 20px;
+   line-height: 0;
+ }
   .teamC small{
     font-size: 11px
   }

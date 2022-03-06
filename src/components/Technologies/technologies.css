@@ -61,10 +61,11 @@
 @media only screen and (max-width: 991px){
   .techC .inner1 {
     text-align: center;
+    padding-top: 80px;
   }
   .techC .left{
     width: 100%;
-    margin-top: 50px
+    margin-top: 30px
   }
   .techC .left .techBox{
     width: 100%;
@@ -88,5 +89,9 @@
   }
   .techBox.one{
     position: static;
+    margin-top: 30px
+  }
+  .techC .setbg-2{
+    background-image: 100%;
   }
 }

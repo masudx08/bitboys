@@ -72,7 +72,7 @@ export default function Team() {
             teamMembers.map((member, id) => {
               return (
                 <div key={id} className='memberCont'>
-                  <div >
+                  <div className='title'>
                     <p>{member.name}</p>
                     <small>{member.title}</small>
                   </div>

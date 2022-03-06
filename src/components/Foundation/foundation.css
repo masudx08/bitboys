@@ -49,9 +49,14 @@
     width: 100%;
     text-align: center;
     margin: auto;
+    margin-bottom: 30px;
   }
+  .foundationC .top h1{
+    margin-bottom: 30px;
+  }
+  
   .foundationC{
-    margin-top: 80px
+    margin-top: 50px
   }
   .foundationC .left{
     width: 100%;

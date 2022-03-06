@@ -53,7 +53,7 @@ export default function MyNavbar() {
         <Nav className="me-auto">
            
           <div className='crossbtn d-flex justify-content-between'>
-            <img src={Logo2} style={{width:'40px', marginLeft: '10px'}} alt="" />
+            <img src={Logo} style={{width:'100px', marginLeft: '10px'}} alt="" />
             <ImCross onClick={closeSidebar} />
           </div>
             <Nav.Link href="#home" >Home</Nav.Link>

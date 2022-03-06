@@ -34,9 +34,9 @@ export default function CustomSlider({desktop, tab,  mobile}) {
               <div key={index} className="slider-container">
                 <div className='sliderC'>
               <div key={item}>
-                <div>
+                {/* <div>
                   <img src={Line} alt="" />
-                </div>
+                </div> */}
                 <h4>All-in-one Crypto Tracker</h4>
                 <p>
                   All your assets and transactions accessible at a glance
