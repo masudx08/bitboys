@@ -62,39 +62,15 @@
   }
 }
 
-
-@keyframes sliderAnimation {
-  from{
-    transform: translateX(0);
+@media only screen and (min-width: 992px){
+  .sliderC p{
+    margin-bottom: 15px;
   }
-  10%{
-    transform: translateX(-505px);
+  .sliderC h4{
+    margin-bottom: 15px;
   }
-  20%{
-    transform: translateX(calc(-505*2px));
-  }
-  30%{
-    transform: translateX(calc(-505*3px));
-  }
-  40%{
-    transform: translateX(calc(-505*4px));
-  }
-  50%{
-    transform: translateX(calc(-505*5px));
-  }
-  60%{
-    transform: translateX(calc(-505*6px));
-  }
-  70%{
-    transform: translateX(calc(-505*7px));
-  }
-  80%{
-    transform: translateX(calc(-505*8px));
-  }
-  90%{
-    transform: translateX(calc(-505*9px));
-  }
-  to{
-    transform: translateX(calc(-505*10px));
+  .sliderC h5{
+    font-size: 24px;
+    margin-bottom: 0px;
   }
 }

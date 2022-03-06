@@ -59,3 +59,8 @@
   }
   
 }
+    @media only screen and (min-width: 992px){
+      .tokenomicsC h1{
+        margin-bottom: 0;
+      }
+    }

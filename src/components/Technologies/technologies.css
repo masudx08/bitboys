@@ -95,3 +95,22 @@
     background-image: 100%;
   }
 }
+
+@media only screen and (min-width: 992px){
+  .techBox.one{
+    margin-top: 10px;
+  }
+  .techBox{
+    margin-bottom: 25px;
+  }
+  .techC .inner2 {
+    padding-top: 270px;
+    padding-bottom: 270px;
+  }
+  .techC .setbg-2{
+    background-size: 70%;
+  }
+  .foundationC{
+    margin-top: 0
+  }
+}
