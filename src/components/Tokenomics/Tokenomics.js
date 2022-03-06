@@ -6,11 +6,12 @@ import TokenomicsRow from './TokenomicsRow'
 export default function Tokenomics() {
   return (
     <div className='tokenomicsC' id='tokenomics'>
-      <div style={{width:'90%', margin: 'auto'}}>
-        <h1>$KYN Tokenomics</h1>
-      </div>
+      
       <div className="inner">
         <div className='topContainer setbg'>
+        <div style={{width:'90%', margin: 'auto'}}>
+          <h1>$KYN Tokenomics</h1>
+        </div>
           <img src={TokeImg} alt="" />
         </div>
         <div className='tokeRow'>

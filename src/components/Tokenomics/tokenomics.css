@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
 }
 .tokenomicsC {
-  margin: auto
+  margin: auto;
+  margin-top: 200px;
 }
 .tokenomicsC img{
   width: 100%;
@@ -19,14 +20,14 @@
 }
 
 .tokenomicsC h1{
-  margin-top: 100px;
   margin-bottom: 100px;
+
 }
 .tokenomicsC p{
   margin: 0
 }
 .tokenomicsC .topContainer{
-  width: 80%
+  width: 80%;
 }
 
 .tokeRow{
@@ -37,6 +38,7 @@
 .tokenomics_right{
   flex-shrink: 1;
 }
+
 
 @media only screen and (max-width: 1699px){
   .tokenomicsC{
@@ -51,7 +53,7 @@
   .tokenomicsC .topContainer{
     width: 100%
   }
-  .tokenomicsC .topCOntainer img{
+  .tokenomicsC .topContainer img{
     width: 100%
   }
   .tokenomicsC .setbg{
@@ -62,5 +64,10 @@
     @media only screen and (min-width: 992px){
       .tokenomicsC h1{
         margin-bottom: 0;
+        font-size: 80px;
       }
+      .tokenomicsC .topContainer{
+        margin-top: -115px;
+      }
+     
     }
