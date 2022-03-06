@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 import './team.css'
 import Simo from '../../images/t-profile1.png'
 import Nilton from '../../images/t-profile2.png'
@@ -10,6 +11,7 @@ import Task2 from '../../images/task-profile2.png'
 import Task3 from '../../images/task-profile3.png'
 import Task4 from '../../images/task-profile4.png'
 import Task5 from '../../images/task-profile5.png'
+import Tooltip from '../_common/Tooltip/Tooltip';
 export default function Team() {
   const responsive = {
     superLargeDesktop: {
@@ -59,8 +61,11 @@ export default function Team() {
     {img: Task4},
     {img: Task5},
   ]
+
+  
   return (
     <div  id='team' className='teamC'>
+      
       <div className="team">
         <div>
           <h1>Leadership Team</h1>
@@ -76,9 +81,18 @@ export default function Team() {
                     <p>{member.name}</p>
                     <small>{member.title}</small>
                   </div>
+                  <Tooltip content={
+                    <div className='text-center'>
+                      amar sonar bangla <br />
+                      ami tomay valobashi <br />
+                      cirodin tomar akash 
+                    </div>
+                  }>
                   <div className='myImg'>
-                    <img src={member.img} alt="" />
+                      <img src={member.img} alt="" />
                   </div>
+                  </Tooltip>
+                  
                 </div>
               )
             })
