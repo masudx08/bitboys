@@ -32,7 +32,7 @@
   transform: rotate(-90deg);
   font-weight: 900;
   font-size: 45px;
-  z-index: 1000;
+  z-index: 1;
 }
 /* .fixedText{
   position: fixed;
