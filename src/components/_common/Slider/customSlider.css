@@ -32,7 +32,6 @@
   margin-bottom: 34px;
 }
 .react-multiple-carousel__arrow{
-  background:none!important;
   min-width: none!important;
 }
 
@@ -48,6 +47,10 @@
 }
 
 @media only screen and (max-width: 991px){
+  .react-multiple-carousel__arrow{
+    background:none!important;
+  }
+  
   .sliderC{
     padding: 10px
   }
